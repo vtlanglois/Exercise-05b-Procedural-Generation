@@ -164,6 +164,7 @@ Then add the following functionality to res://UI/Menu.gd:
 Extends Control
 
 func _on_Restart_pressed():
+	get_tree().paused = false
 	get_tree().change_scene("res://Maze/Maze.tscn")
 
 func _on_Quit_pressed():

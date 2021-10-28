@@ -141,7 +141,7 @@ Next, you will need to add an in-game menu to the game.
 
 Replace the contents of res://Global.gd with the following:
 ```
-Extends Node
+extends Node
 
 func _ready():
 	pause_mode = PAUSE_MODE_PROCESS
@@ -161,7 +161,7 @@ func _unhandled_input(event):
 
 Then add the following functionality to res://UI/Menu.gd:
 ```
-Extends Control
+extends Control
 
 func _on_Restart_pressed():
 	get_tree().paused = false

@@ -1,6 +1,8 @@
 # Exercise-05b-Procedural-Generation
 Exercise for MSCH-C220, 28 October 2021
 
+A demonstration of this exercise is available at [https://youtu.be/oBUbfpzvs6Y](https://youtu.be/oBUbfpzvs6Y)
+
 This exercise is designed to give you some brief experience with creating a procedurally-generated 3D maze. It is based on the excellent tutorial by [KidsCanCode](https://kidscancode.org/blog/2018/08/godot3_procgen1/).
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-05b-Procedural-Generation. *Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name.* Commit your changes.

@@ -130,7 +130,6 @@ func make_maze():
 			var tile = tiles[map[x][z]].instance()
 			tile.translation = Vector3(x*tile_size,0,z*tile_size)
 			tile.name = "Tile_" + str(x) + "_" + str(z)
-			print(tile.name)
 			add_child(tile)
 ```
 
@@ -140,6 +139,8 @@ Next, you will need to add an in-game menu to the game.
 
 Replace the contents of res://Global.gd with the following:
 ```
+Extends Node
+
 func _ready():
 	pause_mode = PAUSE_MODE_PROCESS
 
@@ -158,6 +159,8 @@ func _unhandled_input(event):
 
 Then add the following functionality to res://UI/Menu.gd:
 ```
+Extends Control
+
 func _on_Restart_pressed():
 	get_tree().change_scene("res://Maze/Maze.tscn")
 
